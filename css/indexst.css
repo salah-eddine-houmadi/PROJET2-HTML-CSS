@@ -1,0 +1,156 @@
+/*font-family: 'Merriweather', serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+	width: 960px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+
+}
+a{
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+}
+/* logo */
+#logo{
+	width: 200px;
+	height:190px;
+}
+/* Menu*/
+#Menu{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 60%;
+}
+#Menu ul{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin: 10px 20px;
+}
+#Menu ul li a{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #222;
+}
+#Menu a:hover{
+   color:#2297e3;
+   transition: all ease 0.5s;
+}
+
+.slider img{
+	width: 500px;
+	height:350px;
+	position: relative;
+	left: 40%;
+}
+/* h1*/
+.H1 h1{
+	font-size: 2.3em;
+	position: absolute;
+	top: 22%;
+	font-family: 'Merriweather', serif;
+}
+/* h2*/
+.H2 h2{
+	font-size: 1.5em;
+	position: absolute;
+	top: 40%;
+	font-family: 'Merriweather', serif;
+}
+/* button h1 article*/
+button{
+	position: absolute;
+	top: 63%;
+	color: #fd9800;
+	background: #2297e3;
+	border:none;
+	padding: 7px 20px;
+	border-radius: 20px;
+	border:2px solid #000;
+}
+button a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+/*  h1 article*/
+.title h1{
+	position: absolute;
+	top: 70%;
+	background: #2297e3;
+	color: #fff;
+	width: 33%;
+	padding-left: 40px;
+	height: 5%;
+	padding-top:10px;
+	font-family: 'Merriweather', serif;
+}
+/*  img article*/
+.ph{
+	width: 250px;
+	height: 190px;
+}
+/*  div article*/
+.info{
+
+	margin-top: 25px;
+	width: 95%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.info section{
+	background:#2297e3 ;
+}
+.info section p{
+	text-align: left;
+	line-height: 20px;
+	color: #fff;
+	width: 90%;
+	margin: auto;
+	font-size: .9em;
+	font-family: 'Merriweather', serif;
+}
+.info h2{
+	color: #fff;
+	font-family: 'Merriweather', serif;
+}
+.PA{
+	width: 30%;
+}
+/*Social footer */
+.social-icons a{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:20px 10px;
+	background-color:#2297e3;
+
+}
+.social-icons{
+	display: flex;
+	justify-content: center;
+	margin:10px;
+
+}
+.social-icons a i{
+	color: #000;
+}
+.social-icons a:hover{
+   background-color:#2297e3;
+   box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+   transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+	color: #fff;
+}
